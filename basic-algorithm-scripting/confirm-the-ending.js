@@ -3,12 +3,7 @@ function confirmEnding(str, target) {
   // -- Falcor
   var targetLength = target.length;
   var strLength = str.length;
-  if(str.substr(strLength-targetLength, strLength) === target) {
-    return true;
-  }
-  else {
-    return false;
-  }
+  return (str.substr(strLength-gargetLength, strLength) === target));
 }
 
 confirmEnding("Bastian", "n");
