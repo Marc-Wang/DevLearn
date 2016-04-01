@@ -5,3 +5,4 @@ return str.replace(/[\W_]/g, '').toLowerCase() ===
 }
 
 palindrome("eyes,sdf lksdjf.");
+//still need to learn regual expression in javascript
