@@ -6,7 +6,7 @@ function mutation(arr) {
   var myArray = arr[1].toLowerCase().split(""); 
   for(var i=0; i < arr[1].length; i++) {
    if (arr[0].toLowerCase().indexOf(myArray[i]) === -1) {
-     console.log(myArray[i]);
+     //console.log(myArray[i]);
      return false;
    }
   }
